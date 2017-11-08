@@ -5,7 +5,7 @@ package edu.luc.cs271.wordcount;
         import java.util.*;
         import java.io.FileReader;
 
-        
+
 public class Main {
 
   public static void main(final String[] args) throws InterruptedException {
@@ -14,7 +14,7 @@ public class Main {
     try {
       //uppercase does not matter
       Scanner scan = new Scanner(new File("child.txt"));
-      List<String> words= new ArrayList<String>();
+      List<String> words= new ArrayList<>();
       while (scan.hasNext()) {
         words.add(scan.next().replaceAll(("[^a-zA-Z0-9]"), "").toLowerCase());
       }
