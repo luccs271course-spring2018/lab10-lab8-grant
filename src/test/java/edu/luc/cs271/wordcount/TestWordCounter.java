@@ -24,7 +24,6 @@ public class TestWordCounter {
 
   @Test
   public void testGetCountEmpty() {
-
     
     // TODO verify that the SUT initially returns an empty map
     fail();
